@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Admin Login</h2>
+<input id="u" placeholder="Username"><br><br>
+<input id="p" type="password" placeholder="Password"><br><br>
+<button onclick="login()">Login</button>
+
+<script>
+function login(){
+ if(u.value==="admin" && p.value==="1234")
+  location.href="admin.html";
+ else alert("Wrong Login");
+}
+</script>
+
+</body>
+</html>
